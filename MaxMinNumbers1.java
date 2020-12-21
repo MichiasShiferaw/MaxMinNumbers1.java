@@ -47,3 +47,8 @@ public class MaxMinNumbers1 {
 
     return minValue;
   }
+
+   public static int maxValue(int[] rangeArray) { 
+    
+    int maxValue;
+    maxValue = rangeArray[0];
