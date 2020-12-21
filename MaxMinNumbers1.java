@@ -32,3 +32,18 @@ public class MaxMinNumbers1 {
    
     int minValue;
     minValue = rangeArray[0];
+   
+   
+    // Finds minimum value
+    for (int counter = 1; counter < rangeArray.length; counter++) {
+      {
+        if (counter < rangeArray.length - 1) {
+          if (rangeArray[counter] < minValue) {
+            minValue = rangeArray[counter];
+          }
+        }
+      }
+    }
+
+    return minValue;
+  }
