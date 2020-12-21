@@ -21,3 +21,8 @@ public class MaxMinNumbers1 {
 
     // Sort the array
     Arrays.sort(rangeArray);
+        
+    // Prints the max and min values
+    System.out.println("The max value is : " + maxValue);
+    System.out.println("The min value is: " + minValue);
+  }
