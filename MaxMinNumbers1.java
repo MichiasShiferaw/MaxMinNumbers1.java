@@ -26,3 +26,9 @@ public class MaxMinNumbers1 {
     System.out.println("The max value is : " + maxValue);
     System.out.println("The min value is: " + minValue);
   }
+
+   
+  public static int minValue(int[] rangeArray) {
+   
+    int minValue;
+    minValue = rangeArray[0];
