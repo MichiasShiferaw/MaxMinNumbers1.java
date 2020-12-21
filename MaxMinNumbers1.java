@@ -52,3 +52,16 @@ public class MaxMinNumbers1 {
     
     int maxValue;
     maxValue = rangeArray[0];
+    
+        //sorting of array process
+    for (int counter = 1; counter < rangeArray.length; counter++) {
+      if (rangeArray[counter] > maxValue) {
+        maxValue = rangeArray[counter];
+      }
+    }
+
+    //Arrays.sort(rangeArray);
+    // System.out.println("The max value is: " + rangeArray.length - 1);
+    return maxValue;
+  }
+}
